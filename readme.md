@@ -3,7 +3,7 @@
 
 [![NPM Version](http://img.shields.io/npm/v/grunt-dev-update.svg)](https://npmjs.org/package/grunt-dev-update)
 [![Gittip](http://img.shields.io/gittip/pgilad.svg)](https://www.gittip.com/pgilad/)
-[![Build Status](https://travis-ci.org/pgilad/find-used-lodash.png)](https://travis-ci.org/pgilad/find-used-lodash)
+[![Build Status](http://img.shields.io/travis/pgilad/find-used-lodash.svg)](https://travis-ci.org/pgilad/find-used-lodash)
 
 Useful for preparing an array to pass to a build task in order to build only used pacakges.
 
