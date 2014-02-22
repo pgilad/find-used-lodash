@@ -1,7 +1,7 @@
 # find-used-lodash
 > Use esprima to find and detect used Lodash packages
 
-[![NPM Version](http://img.shields.io/npm/v/grunt-dev-update.svg)](https://npmjs.org/package/grunt-dev-update)
+[![NPM Version](http://img.shields.io/npm/v/find-used-lodash.svg)](https://npmjs.org/package/find-used-lodash)
 [![Gittip](http://img.shields.io/gittip/pgilad.svg)](https://www.gittip.com/pgilad/)
 [![Build Status](http://img.shields.io/travis/pgilad/find-used-lodash.svg)](https://travis-ci.org/pgilad/find-used-lodash)
 
