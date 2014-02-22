@@ -1,0 +1,11 @@
+*.md
+.DS_Store
+.editorconfig
+.git*
+.idea
+.jshintrc
+.npmignore
+node_modules
+npm-debug.log
+test/
+tmp
