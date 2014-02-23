@@ -1,6 +1,6 @@
 {
   "name": "find-used-lodash",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Use esprima to find and detect used lodash packages",
   "homepage": "http://pgilad.github.io/find-used-lodash",
   "bugs": "https://github.com/pgilad/grunt-dev-update/issues",
