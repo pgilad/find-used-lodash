@@ -20,6 +20,8 @@ npm install --save-dev find-used-lodash
 
 ## Example
 
+### General Usage
+
 ```js
 var findUsedLodash = require('find-used-lodash');
 
@@ -27,7 +29,20 @@ console.log(findUsedLodash('_.each(["a", "b"], doSomething)');
 //=> ['each']
 ```
 
-#### findUsedLodash
+### Use in a build task (grunt,gulp)...
+
+```js
+var findUsedLodash = require('find-used-lodash');
+
+var fileContents = fs.readFileSync('targetFile.js', 'utf8'); //or get it from file stream
+var results = findUsedLodash(fileContents);
+
+var commaResults = results.join(',');
+
+//then execute lodash command line with **lodash include=commaResults**
+```
+
+## Options
 
 ```js
 @param {String} jsFileContents - the js file contents as a string

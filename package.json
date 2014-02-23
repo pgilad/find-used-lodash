@@ -10,7 +10,7 @@
     "url": "https://github.com/pgilad/find-used-lodash"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha test.js"
   },
   "keywords": [
     "lodash",

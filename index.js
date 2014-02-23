@@ -13,13 +13,18 @@
 
     function findUsedLodash(jsContents) {
         var ast;
+
+        if (!jsContents) {
+            return [];
+        }
+
         try {
             ast = esprima.parse(jsContents, {
                 tolerant: true
             });
         } catch (e) {
             console.error('Error parsing contents', e);
-            return null;
+            return [];
         }
 
         var usedFuncs = {};
