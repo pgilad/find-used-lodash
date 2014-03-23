@@ -2,8 +2,9 @@
 > Use esprima to find and detect used Lodash packages
 
 [![NPM Version](http://img.shields.io/npm/v/find-used-lodash.svg)](https://npmjs.org/package/find-used-lodash)
-[![Gittip](http://img.shields.io/gittip/pgilad.svg)](https://www.gittip.com/pgilad/)
-[![Build Status](https://travis-ci.org/pgilad/find-used-lodash.png?branch=master)](https://travis-ci.org/pgilad/find-used-lodash)
+[![NPM Downloads](http://img.shields.io/npm/dm/find-used-lodash.svg)](https://npmjs.org/package/find-used-lodash)
+[![Dependencies](http://img.shields.io/gemnasium/pgilad/find-used-lodash.svg)](https://gemnasium.com/pgilad/find-used-lodash)
+[![Build Status](http://img.shields.io/travis/pgilad/find-used-lodash/master.svg)](https://travis-ci.org/pgilad/find-used-lodash)
 
 Useful for preparing an array to pass to a build task in order to build only used pacakges.
 
