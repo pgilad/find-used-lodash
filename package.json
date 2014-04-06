@@ -28,7 +28,7 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "esprima": "^1.0.4",
+    "esprima": "^1.1.1",
     "estraverse": "^1.5.0"
   },
   "devDependencies": {
