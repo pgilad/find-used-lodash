@@ -1,4 +1,4 @@
-exports.module = function () {
+exports.module = function() {
 
     /* example usage of lodash taken from http://kitcambridge.be/blog/say-hello-to-lo-dash/ */
     /* _.map shouldn't be detected */
@@ -8,7 +8,7 @@ exports.module = function () {
 
     // Clone DOM nodes, with deep cloning enabled. `_.clone(..., true)` is
     // equivalent to `_.cloneDeep`.
-    _.clone(element, true, function (value) {
+    _.clone(element, true, function(value) {
         if (_.isElement(value)) {
             return value.cloneNode(true);
         }
@@ -25,7 +25,7 @@ exports.module = function () {
     };
 
     // Concatenate arrays, instead of overwriting the indices.
-    _.merge(food, otherFood, function (left, right) {
+    _.merge(food, otherFood, function(left, right) {
         return _.isArray(left) ? left.concat(right) : undefined;
     });
 };

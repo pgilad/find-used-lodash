@@ -1,17 +1,17 @@
 # find-used-lodash
-> Use esprima to find and detect used Lodash packages
+> Use Esprima to find and detect used Lodash packages
 
 [![NPM Version](http://img.shields.io/npm/v/find-used-lodash.svg?style=flat)](https://npmjs.org/package/find-used-lodash)
 [![NPM Downloads](http://img.shields.io/npm/dm/find-used-lodash.svg?style=flat)](https://npmjs.org/package/find-used-lodash)
 [![Dependencies](http://img.shields.io/gemnasium/pgilad/find-used-lodash.svg?style=flat)](https://gemnasium.com/pgilad/find-used-lodash)
 [![Build Status](http://img.shields.io/travis/pgilad/find-used-lodash.svg?style=flat)](https://travis-ci.org/pgilad/find-used-lodash)
 
-Useful for preparing an array to pass to a build task in order to build only used pacakges.
+Useful for preparing an array to pass to a build task in order to build only used packages.
 
 * Please see [Lodash](http://lodash.com/) for usable packages.
 * Checkout [Lodash custom build tool](http://lodash.com/custom-builds) for possible uses.
 
-**Important notice** Chained lodash packages are currently not detected.
+**Important notice** Chained Lodash packages are currently not detected.
 
 ## Install
 
@@ -51,4 +51,4 @@ var commaResults = results.join(',');
 ```
 
 ## License
-Copyright (c) 2014 Gilad Peleg. Licensed under the MIT license.
+Copyright (©) 2014 Gilad Peleg. Licensed under the MIT license.

@@ -41,7 +41,9 @@
         return keys;
     }
 
-    if (typeof module !== 'undefined' && module.exports) {
+    if (typeof define === 'function' && define.amd) {
+        define([], findUsedLodash);
+    } else if (typeof module !== 'undefined' && module.exports) {
         module.exports = findUsedLodash;
     } else {
         window.findUsedLodash = findUsedLodash;
