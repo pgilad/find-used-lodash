@@ -1,43 +1,43 @@
 {
-    "name": "find-used-lodash",
-    "version": "0.1.11",
-    "description": "Use esprima to find and detect used lodash packages",
-    "homepage": "https://github.com/pgilad/find-used-lodash",
-    "bugs": "https://github.com/pgilad/find-used-lodash/issues",
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/pgilad/find-used-lodash"
-    },
-    "scripts": {
-        "test": "mocha test.js"
-    },
-    "keywords": [
-        "lodash",
-        "underscore",
-        "build",
-        "npm",
-        "esprima",
-        "parse"
-    ],
-    "author": {
-        "name": "Gilad Peleg",
-        "email": "giladp007@gmail.com"
-    },
-    "files": [
-        "license.md",
-        "index.js"
-    ],
-    "engines": {
-        "node": ">=0.10.0"
-    },
-    "dependencies": {
-        "esprima": "^1.2.2",
-        "estraverse": "^1.5.1"
-    },
-    "devDependencies": {
-        "expect.js": "^0.3.1",
-        "mocha": "*"
-    },
-    "license": "MIT"
+  "name": "find-used-lodash",
+  "version": "0.1.11",
+  "description": "Use esprima to find and detect used lodash packages",
+  "homepage": "https://github.com/pgilad/find-used-lodash",
+  "bugs": "https://github.com/pgilad/find-used-lodash/issues",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pgilad/find-used-lodash"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "keywords": [
+    "lodash",
+    "underscore",
+    "build",
+    "npm",
+    "esprima",
+    "parse"
+  ],
+  "author": {
+    "name": "Gilad Peleg",
+    "email": "giladp007@gmail.com"
+  },
+  "files": [
+    "license.md",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "esprima": "^1.2.2",
+    "estraverse": "^1.7.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "*"
+  },
+  "license": "MIT"
 }
