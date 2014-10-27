@@ -51,4 +51,5 @@ var commaResults = results.join(',');
 ```
 
 ## License
-Copyright (©) 2014 Gilad Peleg. Licensed under the MIT license.
+
+MIT @[Gilad Peleg](http://giladpeleg.com)
