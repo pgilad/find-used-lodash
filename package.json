@@ -1,38 +1,38 @@
 {
-    "name": "find-used-lodash",
-    "version": "0.2.0",
-    "description": "Use esprima to find and detect used lodash packages",
-    "repository": "pgilad/find-used-lodash",
-    "license": "MIT",
-    "author": {
-        "name": "Gilad Peleg",
-        "email": "giladp007@gmail.com",
-        "url": "http://giladpeleg.com"
-    },
-    "main": "index.js",
-    "files": [
-        "index.js"
-    ],
-    "engines": {
-        "node": ">=0.10.0"
-    },
-    "scripts": {
-        "test": "mocha test.js"
-    },
-    "keywords": [
-        "lodash",
-        "underscore",
-        "build",
-        "npm",
-        "esprima",
-        "parse"
-    ],
-    "dependencies": {
-        "esprima": "^1.2.2",
-        "estraverse": "^1.7.0"
-    },
-    "devDependencies": {
-        "expect.js": "^0.3.1",
-        "mocha": "*"
-    }
+  "name": "find-used-lodash",
+  "version": "1.0.0",
+  "description": "Use esprima to find and detect used lodash packages",
+  "repository": "pgilad/find-used-lodash",
+  "license": "MIT",
+  "author": {
+    "name": "Gilad Peleg",
+    "email": "giladp007@gmail.com",
+    "url": "http://giladpeleg.com"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "keywords": [
+    "lodash",
+    "underscore",
+    "build",
+    "npm",
+    "esprima",
+    "parse"
+  ],
+  "dependencies": {
+    "esprima": "^1.2.2",
+    "estraverse": "^1.7.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "*"
+  }
 }
