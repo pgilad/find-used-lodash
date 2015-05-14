@@ -42,7 +42,9 @@
     }
 
     if (typeof define === 'function' && define.amd) {
-        define([], findUsedLodash);
+        define([], function () {
+            return findUsedLodash;
+        });
     } else if (typeof module !== 'undefined' && module.exports) {
         module.exports = findUsedLodash;
     } else {

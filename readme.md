@@ -3,7 +3,6 @@
 
 [![NPM Version](http://img.shields.io/npm/v/find-used-lodash.svg?style=flat)](https://npmjs.org/package/find-used-lodash)
 [![NPM Downloads](http://img.shields.io/npm/dm/find-used-lodash.svg?style=flat)](https://npmjs.org/package/find-used-lodash)
-[![Dependencies](http://img.shields.io/gemnasium/pgilad/find-used-lodash.svg?style=flat)](https://gemnasium.com/pgilad/find-used-lodash)
 [![Build Status](http://img.shields.io/travis/pgilad/find-used-lodash.svg?style=flat)](https://travis-ci.org/pgilad/find-used-lodash)
 
 Useful for preparing an array to pass to a build task in order to build only used packages.
